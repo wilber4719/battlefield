@@ -47,7 +47,7 @@ func main() {
      return c.String(http.StatusOK, strconv.Itoa(result))
   })
 
-  e.Logger.Fatal(e.Start(":1325"))
+  e.Logger.Fatal(e.Start(":1323"))
 }
 
 func Add(num1, num2 int) int {
